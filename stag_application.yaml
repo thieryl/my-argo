@@ -10,7 +10,7 @@ spec:
 
   source:
     repoURL: https://github.com/thieryl/my-argo.git
-    targetRevision: staging/HEAD
+    targetRevision: staging
     path: staging
   destination: 
     server: https://kubernetes.default.svc
@@ -21,6 +21,6 @@ spec:
     - CreateNamespace=true
     
     automated:
-      selfHeal: true
+      selfHeal: false
       prune: true
 
