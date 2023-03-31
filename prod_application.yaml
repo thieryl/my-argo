@@ -10,7 +10,7 @@ spec:
 
   source:
     repoURL: https://github.com/thieryl/my-argo.git
-    targetRevision: HEAD
+    targetRevision: production
     path: production
   destination: 
     server: https://kubernetes.default.svc
