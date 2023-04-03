@@ -9,6 +9,7 @@ spec:
   - port: 8081
     protocol: TCP
     targetPort: 8082
+    nodePort: 30009
   selector:
     app: myapp
   type: NodePort
